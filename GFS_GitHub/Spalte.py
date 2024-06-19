@@ -3,7 +3,7 @@ from MATRIX import a
 
 def TestS(Spieler):
     for i in range (len(a)):
-        if  a[0][i] == a[1][i] == a[2][i] == Spieler:
+        if  a[i][0] == a[i][1] == a[i][2] == Spieler:
             return True
         
 
